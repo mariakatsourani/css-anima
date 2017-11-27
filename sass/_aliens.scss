@@ -1,0 +1,45 @@
+#rodolf {
+  width: 50%;
+  position: relative;
+  top: 6%;
+  left: 8%;
+
+  .leg {
+    fill: $legs;
+  }
+
+  #spaceship {
+   > [class^=st] {
+      fill: $space-blue;
+    }
+
+    .st6 {
+      fill: $glass;
+    }
+  }
+
+  .lantern {
+    .st8 {
+      fill: lightgray;
+    }
+    
+    .st9 {
+      fill: beige;
+    }
+
+    .st4 {
+      stroke: $dark-gray;
+      fill: transparent;
+    }
+  }
+}
+
+#alien {
+  .st1 {
+    fill: $alien-green;
+  }
+
+  .st3 {
+    fill: lavender;
+  }
+}
