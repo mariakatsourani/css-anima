@@ -3,6 +3,9 @@
   position: relative;
   top: 6%;
   left: 8%;
+  // duration timing-function iteration-count 
+  animation: 10s ease-in infinite landAndTakeOff;
+  transform-origin: center;
 
   #head {
     // duration timing-function iteration-count direction 

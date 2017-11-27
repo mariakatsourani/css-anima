@@ -7,3 +7,45 @@
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
 }
+
+@keyframes landAndTakeOff {
+  0% {
+    transform: translate3d(-330px, -490px,0);
+  }
+
+  25% {
+    transform: translate3d(70px, 100px, 0);
+  }
+
+  35% {
+    transform: translate3d(0px, 75px, 0);
+  }
+
+  45% {
+    transform: translate3d(94px, 135px, 0);    
+  }
+
+  50% {
+    transform: translate3d(50px, 170px, 0);
+  }
+
+  65% {
+    transform: translate3d(155px, 240px, 0);
+  }
+
+  80% {
+    transform: translate3d(155px, 240px, 0);    
+  }
+
+  93% {
+    transform: translate3d(405px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(690px, -480px, 0)
+  }
+}
+
+@keyframes blinkingLights {
+  
+}
