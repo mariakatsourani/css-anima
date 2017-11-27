@@ -17,6 +17,9 @@
   position: relative;
   top: 6%;
   left: 8%; }
+  #rodolf #head {
+    animation: 2s ease-in-out infinite alternate tiltHead;
+    transform-origin: bottom; }
   #rodolf .leg {
     fill: #3c715a; }
   #rodolf #spaceship > [class^=st] {
@@ -36,6 +39,10 @@
 
 #alien .st3 {
   fill: lavender; }
+
+.eyeballs {
+  animation: 3s cubic-bezier(1, -0.39, 0.57, 1.46) infinite spin;
+  transform-origin: center; }
 
 html, body {
   height: 100%; }

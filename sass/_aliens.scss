@@ -4,6 +4,12 @@
   top: 6%;
   left: 8%;
 
+  #head {
+    // duration timing-function iteration-count direction 
+    animation: 2s ease-in-out infinite alternate tiltHead;
+    transform-origin: bottom;
+  }
+
   .leg {
     fill: $legs;
   }
@@ -42,4 +48,11 @@
   .st3 {
     fill: lavender;
   }
+}
+
+.eyeballs {
+  $cb: cubic-bezier(1, -0.39, 0.57, 1.46);
+  // duration timing-function iteration-count direction 
+  animation:3s $cb infinite spin;
+  transform-origin: center;
 }
